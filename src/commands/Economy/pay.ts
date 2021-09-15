@@ -3,7 +3,7 @@ import { Message, MessageReaction, User } from 'discord.js'
 import ClientEmbed from '../../structures/ClientEmbed'
 import Command from "../../structures/Command"
 import Emojis from '../../utils/Emojis'
-import Client from "../../client";
+import Client from "../../structures/Client";
 import { clearTimeout } from 'timers';
 
 module.exports = class Pay extends Command {

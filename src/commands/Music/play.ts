@@ -1,6 +1,6 @@
 import Command from "../../structures/Command"
 import { Message, VoiceChannel } from 'discord.js'
-import Client from "../../client"
+import Client from "../../structures/Client"
 import { Player } from 'erela.js'
 import Emojis from '../../utils/Emojis'
 import ClientEmbed from '../../structures/ClientEmbed'

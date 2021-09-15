@@ -1,7 +1,7 @@
 import Command from "../../structures/Command";
 import { Interaction, Message, MessageSelectMenu, VoiceChannel, MessageActionRow, SelectMenuInteraction } from "discord.js";
 import ClientEmbed from '../../structures/ClientEmbed'
-import Client from "../../client";
+import Client from "../../structures/Client";
 import { Player } from 'erela.js'
 import Emojis from '../../utils/Emojis'
 

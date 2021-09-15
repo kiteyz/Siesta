@@ -1,4 +1,4 @@
-import Client from "../client";
+import Client from "../structures/Client";
 import { Message, MessageButton, MessageActionRow } from "discord.js";
 import ClientEmbed from "../structures/ClientEmbed";
 import { setTimeout } from "timers";

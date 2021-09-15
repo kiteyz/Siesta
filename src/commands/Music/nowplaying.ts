@@ -1,7 +1,7 @@
 import Command from "../../structures/Command";
 import { Message, MessageAttachment } from "discord.js";
 import Canvas from 'canvas'
-import Client from "../../client";
+import Client from "../../structures/Client";
 import Emojis from "../../utils/Emojis";
 import fetch from 'node-fetch'
 Canvas.registerFont("src/assets/fonts/LEMONMILK-Bold.otf", { family: "Lemon" })

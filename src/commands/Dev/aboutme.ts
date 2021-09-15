@@ -2,7 +2,7 @@ import { Message } from 'discord.js'
 
 import ClientEmbed from '../../structures/ClientEmbed'
 import Command from "../../structures/Command"
-import Client from "../../client";
+import Client from "../../structures/Client";
 import Emojis from '../../utils/Emojis'
 
 module.exports = class Aboutme extends Command {

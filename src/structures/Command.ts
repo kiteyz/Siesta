@@ -1,4 +1,4 @@
-import Client from '../client'
+import Client from '../structures/Client'
 import { Message } from 'discord.js' 
 
 export default class Command {

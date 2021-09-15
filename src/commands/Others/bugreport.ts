@@ -3,7 +3,7 @@ import {
   Message,
   TextChannel,
 } from "discord.js";
-import Client from "../../client";
+import Client from "../../structures/Client";
 import Emojis from "../../utils/Emojis";
 import ClientEmbed from '../../structures/ClientEmbed'
 

@@ -1,6 +1,6 @@
 import Command from "../../structures/Command"
 import { Message } from 'discord.js'
-import Client from "../../client";
+import Client from "../../structures/Client";
 import ClientEmbed from '../../structures/ClientEmbed'
 
 module.exports = class Invite extends Command {

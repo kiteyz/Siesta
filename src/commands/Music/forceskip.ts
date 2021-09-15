@@ -1,6 +1,6 @@
 import Command from "../../structures/Command";
 import { Message, User} from "discord.js";
-import Client from "../../client";
+import Client from "../../structures/Client";
 import Emojis from "../../utils/Emojis";
 
 module.exports = class ForceSkip extends Command {

@@ -1,6 +1,6 @@
 import { config } from 'dotenv'
 import { connect } from 'mongoose'
-import Main from './src/client'
+import Main from './src/structures/Client'
 
 config();
 

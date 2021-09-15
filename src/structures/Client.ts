@@ -2,21 +2,21 @@ import { Client, Collection, ClientOptions, Guild, User } from "discord.js"
 import { NodeOptions } from "erela.js"
 import { promisify } from "util"
 import { Color } from "colors"
-import { Utils } from "./typings/index"
+import { Utils } from "../typings/index"
 
-import moveArray from './utils/functions/moveArray'
-import removeDupeChars from './utils/functions/removeDupeChars'
-import breakLine from './utils/functions/breakLine'
-import toAbbrev from './utils/functions/toAbbrev'
-import renderEmoji from './utils/functions/renderEmoji'
-import convertNumber from './utils/functions/convertNumber'
-import guildDatabase from './models/guild'
-import commandDatabase from './models/command'
-import userDatabase from './models/user'
-import msToHour from "./utils/functions/msToHour"
-import createRandom from "./utils/functions/createRandom"
-import Command from '../src/structures/Command'
-import Music from './structures/Music'
+import moveArray from '../utils/functions/moveArray'
+import removeDupeChars from '../utils/functions/removeDupeChars'
+import breakLine from '../utils/functions/breakLine'
+import toAbbrev from '../utils/functions/toAbbrev'
+import renderEmoji from '../utils/functions/renderEmoji'
+import convertNumber from '../utils/functions/convertNumber'
+import guildDatabase from '../models/guild'
+import commandDatabase from '../models/command'
+import userDatabase from '../models/user'
+import msToHour from "../utils/functions/msToHour"
+import createRandom from "../utils/functions/createRandom"
+import Command from '../../src/structures/Command'
+import Music from '../structures/Music'
 import klaw from "klaw"
 import path from "path"
 
@@ -144,9 +144,9 @@ export default class Main extends Client {
     const eventFiles = await readdir(`./src/events`);
     eventFiles.forEach((file: string) => {
       const eventName = file.split(".")[0];
-      const event = require(`./events/${file}`).default;
+      const event = require(`../events/${file}`).default;
       client.on(eventName, (...args) => new event(client).run(...args));
-      delete require.cache[require.resolve(`./events/${file}`)];
+      delete require.cache[require.resolve(`../events/${file}`)];
     });
   }
 }

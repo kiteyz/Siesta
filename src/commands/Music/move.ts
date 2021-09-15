@@ -1,7 +1,7 @@
 import Command from "../../structures/Command";
 import { Message, User, VoiceChannel } from "discord.js";
 import ClientEmbed from '../../structures/ClientEmbed'
-import Client from "../../client";
+import Client from "../../structures/Client";
 import Emojis from "../../utils/Emojis";
 
 module.exports = class Move extends Command {

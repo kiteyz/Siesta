@@ -1,7 +1,7 @@
 import { Manager, NodeOptions, Node, Player } from "erela.js";
 import { TextChannel, Message } from "discord.js";
 import { Timeouts } from '../typings/index'
-import Client from "../client";
+import Client from "../structures/Client";
 import Spotify from 'better-erela.js-spotify'
 import Emojis from '../utils/Emojis'
 

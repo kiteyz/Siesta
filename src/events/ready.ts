@@ -1,4 +1,4 @@
-import Client from '../client'
+import Client from '../structures/Client'
 
 export default class {
 

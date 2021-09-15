@@ -3,7 +3,7 @@ import { Message, MessageReaction, User } from 'discord.js'
 
 import Command from "../../structures/Command"
 import Emojis from '../../utils/Emojis'
-import Client from "../../client";
+import Client from "../../structures/Client";
 import { setTimeout } from 'timers';
 import ClientEmbed from '../../structures/ClientEmbed';
 let confirm: string[] = []

@@ -2,7 +2,7 @@ import { Message } from 'discord.js'
 
 import Command from "../../structures/Command"
 import Emojis from '../../utils/Emojis'
-import Client from "../../client";
+import Client from "../../structures/Client";
 import ClientEmbed from '../../structures/ClientEmbed'
 
 module.exports = class GuessNumber extends Command {

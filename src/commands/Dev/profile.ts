@@ -2,7 +2,7 @@ import { MessageAttachment, Message, User } from 'discord.js'
 
 import ClientEmbed from '../../structures/ClientEmbed'
 import Command from "../../structures/Command"
-import Client from "../../client";
+import Client from "../../structures/Client";
 import Emojis from '../../utils/Emojis'
 import Canvas from 'canvas'
 Canvas.registerFont("src/assets/fonts/LEMONMILK-Bold.otf", { family: "Lemon" })

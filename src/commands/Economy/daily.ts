@@ -1,7 +1,7 @@
 import Command from "../../structures/Command"
 import Emojis from '../../utils/Emojis'
 import { Message } from 'discord.js'
-import Client from "../../client";
+import Client from "../../structures/Client";
 
 module.exports = class Daily extends Command {
   

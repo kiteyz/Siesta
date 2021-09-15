@@ -1,6 +1,6 @@
 import { TextChannel, VoiceState } from 'discord.js';
 import { clearTimeout, setTimeout } from 'timers';
-import Client from '../client'
+import Client from '../structures/Client'
 
 export default class {
 
