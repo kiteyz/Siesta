@@ -18,12 +18,12 @@ export default class {
     ];
 
     var tabela2 = [
-      { local: `./src/assets/images/avatar/1.jpg` },
-      { local: `./src/assets/images/avatar/2.jpg` },
-      { local: `./src/assets/images/avatar/3.jpg` },
-      { local: `./src/assets/images/avatar/4.jpg` },
-      { local: `./src/assets/images/avatar/5.jpg` },
-      { local: `./src/assets/images/avatar/6.jpg` }
+      `./src/assets/images/avatar/1.jpg`,
+      `./src/assets/images/avatar/2.jpg`,
+      `./src/assets/images/avatar/3.jpg`,
+      `./src/assets/images/avatar/4.jpg`,
+      `./src/assets/images/avatar/5.jpg`,
+      `./src/assets/images/avatar/6.jpg`
     ]
     setInterval(() => {
       var randomStatus = tabela[Math.floor(Math.random() * tabela.length)];
@@ -33,7 +33,7 @@ export default class {
     setInterval(() => {
       var randomAvatar = tabela2[Math.floor(Math.random() * tabela2.length)]
 
-      this.client.user!.setAvatar(randomAvatar.local)
+      this.client.user!.setAvatar(randomAvatar)
     }, 300 * 1000)
 
     this.client.user!.setStatus("idle");
