@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="src/assets/images/avatar/1.jpg" alt="Logo of Siesta" width="200px"/>
   <h2> 🕊 A simple and very cute music bot for Discord </h2>
   
   [![Discord](https://img.shields.io/badge/ADD_IN_YOUR_SERVER-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=858734910197071912&permissions=3460168&scope=bot)
